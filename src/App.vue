@@ -24,7 +24,6 @@ export default {
 <template>
   <AppHeader />
   <AppMain />
-  
 </template>
 
 <style lang="scss">

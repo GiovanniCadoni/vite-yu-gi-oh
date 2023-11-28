@@ -1,11 +1,7 @@
 <script>
 /* export default {
-    data() {
-        return {
-            props: {
-                card: Object,
-            },
-        };
+    props: {
+        card: Object,
     },
 }; */
 </script>
