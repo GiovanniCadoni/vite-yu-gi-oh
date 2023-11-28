@@ -1,5 +1,6 @@
 <script>
 import { store } from "../store.js";
+//import AppCard from "./AppCard.vue";
 
 export default {
     data() {
@@ -7,6 +8,7 @@ export default {
             store,
         };
     },
+    //components: AppCard,
 };
 </script>
 
@@ -15,6 +17,7 @@ export default {
         <div class="row row-cols-5 py-3">
 
             <div class="col mb-5" v-for="card in store.cards" :key="card.id">
+                <!-- <AppCard :card="card" /> -->
                 <div class="card p-2 text-center">
                     <img class="card-img-top" :src="card.card_images[0].image_url_small" alt=""/>
                     <div class="card-text">
